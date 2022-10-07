@@ -1,0 +1,17 @@
+.page-wrapper {
+    position: relative;
+}
+
+.grid-container {
+    position: absolute;
+    right: 1rem;
+
+    width: 75%;
+
+    align-content: right;
+    justify-content: space-between;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+}

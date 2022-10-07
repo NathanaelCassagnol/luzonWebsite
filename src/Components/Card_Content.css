@@ -1,0 +1,107 @@
+.card-container-content {
+    width: 500px;
+    height: 650px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin-left: auto;
+    margin-right: auto;
+
+    position: relative;
+}
+
+/*
+.card-container-content:hover{
+    transform: scale(1.1);
+    box-shadow:0px 0px 15px 0px;
+}
+*/
+
+/*same for all*/
+.pfp-container img {
+    overflow: hidden;
+    height: 50px;
+    border-radius: 50%;
+    margin: 1rem;
+    float: left;
+}
+
+.pfp-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+
+.pfp-title {
+    margin-block: 0.5rem;
+    text-align: left;
+}
+
+.date {
+    position: absolute;
+    right: 1rem;
+    margin-block: 1rem;
+}
+
+.date h4 {
+    color: #80aafd;
+    font-size: 14px;
+}
+
+.image-container-content {
+    align-content: center;
+    clear: both;
+}
+
+.image-container-content img {
+    overflow: hidden;
+    height: 450px;
+    width: 450px;
+}
+
+.description-content {
+    position: absolute;
+    left: 2rem;
+    text-align: left;
+}
+
+.card-buttons-container-content {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 1rem;
+    left: 2rem;
+    gap: 1rem;
+}
+
+.card-buttons-container-content button {
+    padding: 0.5rem;
+    background-color: white;
+    border: none;
+    margin-bottom: 0.5rem;
+    border-radius: 3px;
+    transition: 0.2s;
+}
+
+.card-buttons-container-content button:hover {
+    background: rgb(27, 156, 252, 1);
+}
+
+.card-buttons-container-content img {
+    height: 20px;
+    width: 20px;
+}
+
+
+h3,p{
+    /*resteing default*/
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-transform: uppercase;
+    color: #1B9CFC;
+    text-decoration: none;
+    font-weight: bold;
+}

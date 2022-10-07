@@ -1,0 +1,83 @@
+.card-container-marketitem {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px -5px;
+    transition: 0.3s;
+    animation: ease-in;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+
+    position: relative;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.card-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 15px 0px;
+}
+
+.image-container-item {
+    
+    margin-top: auto;
+}
+
+.image-container-item img {
+    overflow: hidden;
+    height: 275px;
+    width: 275px;
+    margin: 1rem;
+    border-radius: revert;
+    align-content: center;
+    clear: left;
+}
+
+.pfp-container img {
+    overflow: hidden;
+    height: 50px;
+    border-radius: 50%;
+    margin: 1rem;
+    float: left;
+    
+}
+
+.pfp-content {
+    margin: 1rem;
+    margin-top: 0.5rem;
+}
+.pfp-title {
+    margin-block: 0.5rem;
+    text-align: left;
+}
+
+h4, h3, p {
+    /*resetting default*/
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.align-right {
+    text-align: right;
+    border: 0;
+}
+
+a {
+    text-transform: uppercase;
+    color: #1B9CFC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.icons {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
